@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Zendesk Notifier",
+  "description": "Notifies you of tickets from Zendesk based on custom filters.",
+  "version": "1.1.3.7",
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "power",
+    "notifications",
+    "idle",
+    "activeTab",
+    "https://invisionapp.zendesk.com/*",
+    "alarms"
+  ],
+  "background": {
+      "scripts": ["scripts/background.js"],
+      "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon128d.png",
+    "default_title": "Zendesk Notifier"
+  },
+  "web_accessible_resources": [
+    "sounds/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://invisionapp.zendesk.com/*"],
+      "run_at": "document_idle",
+      "js": ["scripts/jquery-3.3.1.min.js", "scripts/content.js"]
+    }
+  ]
+}

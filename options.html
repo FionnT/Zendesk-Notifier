@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="icons/icon48.png">
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="scripts/options.js"></script>
+    <script type="text/javascript" src="scripts/widgets.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/options.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/widgets.css">
+    <title>Zendesk Notifier</title>
+  </head>
+  <body>
+    <div id="leftnav">
+      <img src="icons/icon128.png" alt="">
+      <span class="information click" data-area="setup">Information</span>
+      <span class="zen_views" data-area="views">Zendesk Views</span>
+      <span class="settings" data-area="settings">Settings</span>
+    </div>
+    <div id="rightarea">
+      <div class="wrapper">
+        <div id="notification">
+          <p>Ho! Ho! Ho! Merry Christmas!</p>
+        </div>
+        <div id="setup" class="area">
+          <h1>Adding Views:</h1>
+          <p>1. Copy the URL of the filter you would like to add:</p>
+          <img src="images/filter-url.png" alt="">
+          <p>2. Go to the settings page, and input the URL in the filter field <br/>
+            3. Add a queue name for easy recognition/management later on!<br/>
+            4. Select the parameters for when you want to be notified (these are the same as Zendesk's custom filters)<br/>
+            5. Save the queue!
+          </p>
+          <h1>Modifying existing views:</h1>
+          <img src="images/modifying.png" alt="">
+          <!-- <p>1. <b>To remove</b>: Head to the "Zendesk Views" tab, and select <b>Delete this View</b> on the left!<br/>
+            2. <b>To update</b>: Head to the "Zendesk views" tab, change as you see fit, and click on <b>Update View.</b><br/>
+            3. To pause a view: Head to the "Zendesk views" tab and simply <b>double click</b> on the toggle at the top.
+          </p> -->
+
+          <h1>Volume, Power Management, and everything else:</h1>
+          <p>You'll find all of these on the Settings tab, and they should be very intuitive :-)</p>
+        </div>
+        <div id="views">
+          <div class="view" id="unfungible">
+            <div class="banner">
+              <h1>New Zendesk View</h1>
+            </div>
+            <div class="box">
+              <div class="inputs">
+                <p>Filter URL:</p>
+                <input type="text" class="url" placeholder="e.g. https://invisionapp.zendesk.com/agent/filters/40866159">
+                <p>Filter Name:</p>
+                <input type="text" class="shorthand" placeholder="e.g. My Personal Queue">
+                <div class="selector">
+                  <p>Notify me when a ticket is</p>
+                  <div class="sel sel--black-panther">
+                    <select class="new">
+                      <option value="less" disabled>less than <</option>
+                      <option value="less">less than <</option>
+                      <option value="more">at least >=</option>
+                      <option value="least">at most <=</option>
+                      <option value="better">greater than ></option>
+                    </select>
+                  </div>
+                  <div class="sel sel--black-panther">
+                    <select class="new">
+                      <option value="0" disabled>new</option>
+                      <option value="0">new</option>
+                      <option value="1">open</option>
+                      <option value="2">pending</option>
+                      <option value="3">on-hold</option>
+                      <option value="4">solved</option>
+                    </select>
+                  </div>
+                  <p class="last">please!</p>
+                </div>
+              </div>
+              <div class="options">
+                <div class="button save">
+                  <p>Add new view</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="area">
+            <div class="view existing spacer"></div>
+            <div class="view existing cloner">
+              <div class="banner">
+                <label class="switch">
+                  <input type="checkbox" class="toggle">
+                  <span class="slider"></span>
+                </label>
+                <h1>This view is active</h1>
+              </div>
+              <div class="shadow"></div>
+              <div class="box">
+                <div class="inputs">
+                  <p>Filter URL:</p>
+                  <input type="text" class="url" placeholder="e.g. https://invisionapp.zendesk.com/agent/filters/40866159">
+                  <p>Filter Name:</p>
+                  <input type="text" class="shorthand" placeholder="e.g. My Personal Queue">
+                  <div class="selector">
+                    <p>Notify me when a ticket is</p>
+                    <div class="sel sel--black-panther">
+                      <select>
+                        <option value="less" disabled>less than <</option>
+                        <option value="less">less than <</option>
+                        <option value="more">at least >=</option>
+                        <option value="least">at most <=</option>
+                        <option value="better">greater than ></option>
+                      </select>
+                    </div>
+                    <div class="sel sel--black-panther">
+                      <select>
+                        <option value="0" disabled>new</option>
+                        <option value="0">new</option>
+                        <option value="1">open</option>
+                        <option value="2">pending</option>
+                        <option value="3">on-hold</option>
+                        <option value="4">solved</option>
+                      </select>
+                    </div>
+                    <p class="last">please!</p>
+                  </div>
+                </div>
+                <div class="options">
+                  <div class="button delete">
+                    <p>Delete this view</p>
+                  </div>
+                  <div class="button update">
+                    <p>Update view</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="area" id="settings">
+          <div class="bounding">
+            <div class="title">
+              <h1>Sound Settings</h1>
+            </div>
+            <div class="volumeslider">
+              <p>Volume:</p>
+              <div id="player">
+                <i class="fa fa-volume-down"></i>
+                <div id="volume"></div>
+                <i class="fa fa-volume-up"></i>
+              </div>
+              <p>Notification Sound:</p>
+              <ul>
+                <li>
+                  <p>Confirmed</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+                <li>
+                  <p>JFK</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+                <li>
+                  <p>Mallet</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+                <li>
+                  <p>Motion</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+                <li>
+                  <p>Shrine</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+                <li>
+                  <p>Tokyo</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+                <li>
+                  <p>Walkabout</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+                <li>
+                  <p>Ferocious Warcry</p>
+                  <img src="images/darkplay.png" alt="">
+                  <div class="selection">
+                    <p>Click to play</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="title">
+              <h1>Power Settings</h1>
+            </div>
+            <div class="power">
+              <h2>Prevent computer from sleeping? </h2>
+              <label class="switch">
+                <input type="checkbox" class="toggle">
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

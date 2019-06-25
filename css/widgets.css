@@ -1,0 +1,231 @@
+/* ===== Volume Slider ===== */
+
+#settings h1.vol{padding-bottom: 0px; margin-bottom: -15px;}
+#settings .vol_lvl {
+  padding: 0 0 0 45px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#player {
+  width: 350px !important;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  top: -10px;
+  border: none !important;
+}
+
+i {
+	position: absolute;
+	margin-top: -6px;
+	color: #666;
+}
+
+i.fa-volume-down {
+	margin-left: -8px;
+}
+
+i.fa-volume-up {
+	margin-right: -8px;
+	right: 0;
+}
+
+
+#volume {
+  position: absolute;
+  left: 24px;
+  margin: 0 auto;
+  height: 5px;
+  width: 300px;
+  background: #555;
+  border-radius: 15px;
+  border-left: none !important;
+  border-right: none !important;
+}
+.ui-slider-range-min {
+	height: 5px;
+	width: 300px;
+	position: absolute;
+	background: #2ecc71;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+}
+
+.ui-slider-handle {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: #FFF;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -4px;
+  cursor: pointer;
+  outline: none;
+  background: #666666;
+  border: 1px solid rgba(0,0,0,0.25);
+}
+
+/* ===== Notification Box ===== */
+
+#notification {
+  width: 500px;
+  height: 35px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  margin-left: -250px;
+  background: #fef1f1;
+  z-index: 999999999;
+  border-radius: 5px;
+  border: 1px solid #e2a8a8;
+  color: #c43b3b;
+  opacity: 0;
+}
+#notification.happy {
+  background: #f2fef1;
+  border: 1px solid #a8e2c2;
+  color: #23af41;
+}
+#notification p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 11px;
+  font-size: 0.85em;
+  font-weight: 300;
+}
+
+/* ===== Switch Buttons ===== */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 12px;
+  left: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  border-radius: 34px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #23af41e0;;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.view.existing.active .banner .switch .slider, .switch.active .slider {
+  background-color: #23af41e0;;
+}
+.view.existing.inactive .banner .switch .slider, .switch.inactive .slider {
+  background-color: #ccc;
+}
+
+.view.existing.active .banner .switch .slider:before, .switch.active .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.view.existing.inactive .banner .switch .slider:before, .switch.inactive .slider:before {
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+
+/* ===== Select Box ===== */
+.selector p:last-of-type{margin-left: 0;}
+
+.sel {
+  font-size: 0.9em;
+  font-weight: 300;
+  display: inline-block;
+  width: auto;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.sel__placeholder {
+  display: block;
+  font-size: 1em;
+  color: black;
+  padding: 0.2em 0.5em;
+  text-align: left;
+  pointer-events: none;
+  user-select: none;
+  visibility: visible;
+}
+
+.sel.active .sel__placeholder {
+  visibility: hidden;
+}
+
+.sel__box {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: -4px;
+  display: none;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1em;
+  background-color: #FFF;
+  width: calc(100% + 8px);
+  box-sizing: border-box;
+  min-width: 70px !important;
+  z-index: 99;
+}
+
+.sel.active .sel__box {
+  display: block;
+  animation: fadeInUp 500ms;
+}
+
+.sel__box__options {
+  display: list-item;
+  font-size: 1em;
+  color: black;
+  padding: 0.5em 1em;
+  user-select: none;
+}
+.sel__box__options:hover {
+  background-color: #ebedef;
+}
