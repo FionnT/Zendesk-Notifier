@@ -85,7 +85,7 @@ function script(){
 
       if(level === "less"){
         for(i in num_array){
-          if(num_array[i]<status) ncount+=1;
+          if(num_array[i]<status || (num_array[i] === 0 && status === 0)) ncount+=1;
         }
       }else if(level === "more"){
         for(i in num_array){
@@ -120,7 +120,7 @@ function script(){
           var queue = "queue_" + n;
           chrome.storage.sync.get([queue], function(result) {
             var data = result[Object.keys(result)[0]]  // See note labelled Object.Keys in README
-            if(data != null && data.split(";")[5] === "true"){
+            if(data.split(";")[5] === "true"){
               setTimeout(function(){
                 var url = "https://invisionapp.zendesk.com/agent/" + data.split(";")[0];
                 if( document.location.href === url){
@@ -133,7 +133,7 @@ function script(){
                   }
                 }
               // this timeout on further redirects allows us to parse in the meantime
-              }, 30500)
+            }, 30200)
             }else{
               iterate(count, n)
             }

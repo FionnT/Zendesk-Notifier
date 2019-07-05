@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Zendesk Notifier",
   "description": "Notifies you of tickets from Zendesk based on custom filters.",
-  "version": "1.1.3.7",
+  "version": "1.1.3.9",
   "options_page": "options.html",
   "icons": {
     "16": "icons/icon16.png",

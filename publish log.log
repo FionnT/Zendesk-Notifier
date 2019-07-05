@@ -1,0 +1,648 @@
+anonymous@Chelan-6435:~/Dev/narwhal/storybook (±dsm)
+▻ yarn dsm:publish
+yarn run v1.15.2
+warning package.json: "dependencies" has dependency "html-webpack-plugin" with range "^4.0.0-beta.2" that collides with a dependency in "devDependencies" of the same name with version "^3.2.0"
+$ dsm-storybook publish --config-dir ./config -- --language=en
+DSM =>    Custom prettier configuration was not found for this project
+DSM =>    Verifying dsm-storybook version (0.0.70) is valid...
+DSM =>    Verifying remitly-design subscription...
+DSM =>    Analyzing file ./stories/auth.tsx
+DSM =>    Analyzing file ./stories/components/addressForm.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/addressForm.tsx"
+SyntaxError: Unexpected token (76:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/alerts.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/alerts.tsx"
+SyntaxError: Unexpected token, expected "}" (70:65)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/auxHelp.tsx
+DSM =>    Analyzing file ./stories/components/buttons.tsx
+DSM =>    Analyzing file ./stories/components/card.tsx
+DSM =>    Analyzing file ./stories/components/colors.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/colors.tsx"
+SyntaxError: Unexpected token (70:71)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/deliveryPromise.tsx
+DSM =>    Analyzing file ./stories/components/emptyState.tsx
+DSM =>    Analyzing file ./stories/components/errorPages.tsx
+DSM =>    Analyzing file ./stories/components/errorPatterns.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/errorPatterns.tsx"
+SyntaxError: Unexpected token (48:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/flags.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/flags.tsx"
+SyntaxError: Unexpected token, expected "}" (24:32)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/formComponents.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/formComponents.tsx"
+SyntaxError: Unexpected token (74:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/header.tsx
+DSM =>    Analyzing file ./stories/components/icon.tsx
+DSM =>    Analyzing file ./stories/components/imageContent.tsx
+DSM =>    Analyzing file ./stories/components/markdown.tsx
+DSM =>    Analyzing file ./stories/components/modals.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/modals.tsx"
+SyntaxError: Unexpected token (74:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/permissions.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/permissions.tsx"
+SyntaxError: Unexpected token (30:12)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/policyFlow/checklistItem.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/policyFlow/checklistItem.tsx"
+SyntaxError: Unexpected token, expected ";" (64:93)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/promoMessage.tsx
+DSM =>    Analyzing file ./stories/components/radioButton.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/radioButton.tsx"
+SyntaxError: Unexpected token (53:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/router.native.tsx
+DSM =>    Analyzing file ./stories/components/router.tsx
+DSM =>    Analyzing file ./stories/components/scrollAnchor.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/scrollAnchor.tsx"
+SyntaxError: Unexpected token (102:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/spacing.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/spacing.tsx"
+SyntaxError: Unexpected token, expected ";" (49:31)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/spinner.tsx
+DSM =>    Analyzing file ./stories/components/toggleButton.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/components/toggleButton.tsx"
+SyntaxError: Unexpected token (40:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/components/typography.tsx
+DSM =>    Analyzing file ./stories/index.ts
+DSM =>    Analyzing file ./stories/screens/authFlow/index.ts
+DSM =>    Analyzing file ./stories/screens/authFlow/mobile/chooseCorridorScreen.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/authFlow/mobile/chooseCorridorScreen.tsx"
+SyntaxError: Unexpected token, expected "}" (29:60)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/authFlow/mobile/forgotPasswordScreen.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/authFlow/mobile/forgotPasswordScreen.tsx"
+SyntaxError: Unexpected token, expected "}" (16:45)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/authFlow/mobile/loginScreen.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/authFlow/mobile/loginScreen.tsx"
+SyntaxError: Unexpected token, expected "}" (29:56)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/authFlow/mobile/signupScreen.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/authFlow/mobile/signupScreen.tsx"
+SyntaxError: Unexpected token, expected "}" (30:56)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/authFlow/mobile/welcomeScreen.tsx
+DSM =>    Analyzing file ./stories/screens/policyFlow/mobile/cameraScreen.tsx
+DSM =>    Analyzing file ./stories/screens/policyFlow/mobile/checklistScreen.tsx
+DSM =>    Analyzing file ./stories/screens/policyFlow/mobile/documentConfirmationScreen.tsx
+DSM =>    Analyzing file ./stories/screens/policyFlow/mobile/messageScreen.tsx
+DSM =>    Analyzing file ./stories/screens/policyFlow/mobile/questionScreen.tsx
+DSM =>    Analyzing file ./stories/screens/policyFlow/mobile/ssnScreen.tsx
+DSM =>    Analyzing file ./stories/screens/sendFlow/desktop/amountAndDelivery.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/desktop/amountAndDelivery.tsx"
+SyntaxError: Unexpected token, expected "," (57:16)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/desktop/desktopScreenDecorator.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/desktop/desktopScreenDecorator.tsx"
+SyntaxError: Unexpected token (33:12)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/desktop/recipientInfo.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/desktop/recipientInfo.tsx"
+SyntaxError: Unexpected token, expected "," (39:103)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/desktop/selectRecipient.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/desktop/selectRecipient.tsx"
+SyntaxError: Unexpected token (12:62)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/deliveryLocation.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/mobile/deliveryLocation.tsx"
+SyntaxError: Unexpected token, expected "}" (35:62)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/deliverySpeed.tsx
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/destinationType.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/mobile/destinationType.tsx"
+SyntaxError: Unexpected token, expected "}" (17:44)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/recipientAddress.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/mobile/recipientAddress.tsx"
+SyntaxError: Unexpected token, expected "," (20:25)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/recipientEmail.tsx
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/recipientName.tsx
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/senderAddress.tsx
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/senderBirthday.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/mobile/senderBirthday.tsx"
+SyntaxError: Unexpected token, expected "}" (17:71)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/senderName.tsx
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/senderSsn.tsx
+DSM =>    Analyzing file ./stories/screens/sendFlow/mobile/sendMoney.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/screens/sendFlow/mobile/sendMoney.tsx"
+SyntaxError: Unexpected token, expected ";" (112:18)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/screens/sendReminders/index.ts
+DSM =>    Analyzing file ./stories/screens/sendReminders/mobile/sendRemindersModal.tsx
+DSM =>    Analyzing file ./stories/utilities/exposeContext.tsx
+DSM =>    Analyzing file ./stories/utilities/knobExtras.ts
+DSM =>  ✖ Failed to parse story source file "./stories/utilities/knobExtras.ts"
+SyntaxError: Unexpected token, expected "," (17:38)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/utilities/modalDecorator.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/utilities/modalDecorator.tsx"
+SyntaxError: Unexpected token (31:12)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/utilities/policyFlowSchemaHelper.ts
+DSM =>  ✖ Failed to parse story source file "./stories/utilities/policyFlowSchemaHelper.ts"
+SyntaxError: Unexpected token (14:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/utilities/presentationDecorator.tsx
+DSM =>    Analyzing file ./stories/utilities/screenDecorator.tsx
+DSM =>    Analyzing file ./stories/utilities/shellContextDecorator.tsx
+DSM =>  ✖ Failed to parse story source file "./stories/utilities/shellContextDecorator.tsx"
+SyntaxError: Unexpected token (22:13)
+    at t (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:326)
+    at Object.parse (/Users/anonymous/Dev/narwhal/node_modules/prettier/parser-babylon.js:1:214353)
+    at e.exports (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:6802)
+    at /Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32487
+    at e.reduce (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32559)
+    at Array.reduce (<anonymous>)
+    at f (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32153)
+    at Object.collect (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:32641)
+    at Object.publish (/Users/anonymous/Dev/narwhal/node_modules/@invisionapp/dsm-storybook/dist/dsm-storybook-node.js:1:29977)
+    at <anonymous>
+DSM =>    Analyzing file ./stories/utilities/variants.ts
+DSM =>    Analyzing file ./stories/utilities/withApi.ts
+DSM =>    Analysis result written to file /Users/anonymous/Dev/narwhal/storybook/.dsm/metadata/story-metadata.json.
+DSM =>    Creating Storybook bundle...
+info @storybook/react v5.1.4
+info
+info clean outputDir..
+info => Copying prebuild dll's..
+info => Building manager..
+info => Loading manager config..
+info => Loading presets
+info => Loading custom babel config
+info => Loading custom addons config.
+info => Compiling manager..
+info => manager built (1 min)
+info => Building preview..
+info => Loading preview config..
+info => Loading presets
+info => Loading custom babel config
+info => Loading custom webpack config (full-control mode).
+info => Using base config because react-scripts is not installed.
+info => Compiling preview..
+info => Preview built (36 s)
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets:
+WARN   main.54f3cdb68091e08bab9c.bundle.js (3.98 MiB)
+WARN   vendors~main.54f3cdb68091e08bab9c.bundle.js (5.78 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (9.76 MiB)
+WARN       runtime~main.54f3cdb68091e08bab9c.bundle.js
+WARN       vendors~main.54f3cdb68091e08bab9c.bundle.js
+WARN       main.54f3cdb68091e08bab9c.bundle.js
+WARN
+WARN webpack performance recommendations:
+WARN You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+WARN For more info visit https://webpack.js.org/guides/code-splitting/
+info => Output directory: /Users/anonymous/Dev/narwhal/storybook/.dsm/storybook
+DSM =>  ✔ Upload complete: en.54f3cdb68091e08bab9c.bundle.js
+DSM =>  ✔ Upload complete: favicon.ico
+DSM =>  ✔ Upload complete: iframe.html
+DSM =>  ✔ Upload complete: index.html
+DSM =>  ✔ Upload complete: main.54f3cdb68091e08bab9c.bundle.js
+DSM =>  ✔ Upload complete: main.9421e8eb66d3d094cf25.bundle.js
+DSM =>  ✔ Upload complete: runtime~en.54f3cdb68091e08bab9c.bundle.js
+DSM =>  ✔ Upload complete: runtime~main.17da544d0ef88cbabfaf.bundle.js
+DSM =>  ✔ Upload complete: runtime~main.54f3cdb68091e08bab9c.bundle.js
+DSM =>  ✔ Upload complete: sb_dll/storybook_ui_dll.js
+DSM =>  ✔ Upload complete: sb_dll/storybook_ui_dll.LICENCE
+DSM =>  ✔ Upload complete: sb_dll/storybook_ui-manifest.json
+DSM =>  ✔ Upload complete: static/media/addReminder.bf7d630b.svg
+DSM =>  ✔ Upload complete: static/media/ARG_128x86.28ead849.svg
+DSM =>  ✔ Upload complete: static/media/ARM_128x86.23d867c2.svg
+DSM =>  ✔ Upload complete: static/media/AUS_128x86.fe0e7366.svg
+DSM =>  ✔ Upload complete: static/media/AUT_128x86.b69ab24c.svg
+DSM =>  ✔ Upload complete: static/media/bank_deposit.3c98961e.svg
+DSM =>  ✔ Upload complete: static/media/BEL_128x86.d8e3ed17.svg
+DSM =>  ✔ Upload complete: static/media/BGD_128x86.235f6e1b.svg
+DSM =>  ✔ Upload complete: static/media/BGR_128x86.d9411885.svg
+DSM =>  ✔ Upload complete: static/media/BIH_128x86.fe1d34c4.svg
+DSM =>  ✔ Upload complete: static/media/birthday-cake.e4ca964f.svg
+DSM =>  ✔ Upload complete: static/media/BOL_128x86.34bfcb17.svg
+DSM =>  ✔ Upload complete: static/media/BRA_128x86.1b97c4d3.svg
+DSM =>  ✔ Upload complete: static/media/Bracket.a9a8f352.png
+DSM =>  ✔ Upload complete: static/media/CAN_128x86.4ec5b077.svg
+DSM =>  ✔ Upload complete: static/media/captureImage.3ea82b4c.svg
+DSM =>  ✔ Upload complete: static/media/cardCvv.a712e43c.svg
+DSM =>  ✔ Upload complete: static/media/cash_pickup.82caa99b.svg
+DSM =>  ✔ Upload complete: static/media/checkmark.4eb0277d.svg
+DSM =>  ✔ Upload complete: static/media/CHL_128x86.a91c970d.svg
+DSM =>  ✔ Upload complete: static/media/CHN_128x86.fd288a8b.svg
+DSM =>  ✔ Upload complete: static/media/CIV_128x86.2433338c.svg
+DSM =>  ✔ Upload complete: static/media/CMR_128x86.c08f61a6.svg
+DSM =>  ✔ Upload complete: static/media/COD_128x86.fb95013c.svg
+DSM =>  ✔ Upload complete: static/media/COL_128x86.aac33d14.svg
+DSM =>  ✔ Upload complete: static/media/CRI_128x86.9a671900.svg
+DSM =>  ✔ Upload complete: static/media/CYP_128x86.4b077244.svg
+DSM =>  ✔ Upload complete: static/media/CZE_128x86.2bda371b.svg
+DSM =>  ✔ Upload complete: static/media/DEU_128x86.5951bd45.svg
+DSM =>  ✔ Upload complete: static/media/DNK_128x86.4f484453.svg
+DSM =>  ✔ Upload complete: static/media/DOM_128x86.4a42c74b.svg
+DSM =>  ✔ Upload complete: static/media/ECU_128x86.0a345145.svg
+DSM =>  ✔ Upload complete: static/media/EGY_128x86.71e7d84d.svg
+DSM =>  ✔ Upload complete: static/media/en-remitly-logo.7cbb0435.svg
+DSM =>  ✔ Upload complete: static/media/es-remitly-logo.2b2927eb.svg
+DSM =>  ✔ Upload complete: static/media/ESP_128x86.058a1f9e.svg
+DSM =>  ✔ Upload complete: static/media/EST_128x86.d5e17a60.svg
+DSM =>  ✔ Upload complete: static/media/ETH_128x86.6512f096.svg
+DSM =>  ✔ Upload complete: static/media/FIN_128x86.de09bccc.svg
+DSM =>  ✔ Upload complete: static/media/FRA_128x86.8021ff0f.svg
+DSM =>  ✔ Upload complete: static/media/GBR_128x86.671dedec.svg
+DSM =>  ✔ Upload complete: static/media/GEO_128x86.6049908b.svg
+DSM =>  ✔ Upload complete: static/media/GHA_128x86.a8595cd2.svg
+DSM =>  ✔ Upload complete: static/media/GMB_128x86.04dcc0fc.svg
+DSM =>  ✔ Upload complete: static/media/GRC_128x86.88ee6c90.svg
+DSM =>  ✔ Upload complete: static/media/GTM_128x86.d76af862.svg
+DSM =>  ✔ Upload complete: static/media/GUM_128x86.17651034.svg
+DSM =>  ✔ Upload complete: static/media/GUY_128x86.5ba04e55.svg
+DSM =>  ✔ Upload complete: static/media/hide_icon.af6f1dcd.svg
+DSM =>  ✔ Upload complete: static/media/HKG_128x86.fc8b7239.svg
+DSM =>  ✔ Upload complete: static/media/HND_128x86.750b88ad.svg
+DSM =>  ✔ Upload complete: static/media/home_delivery.8eac7502.svg
+DSM =>  ✔ Upload complete: static/media/HRV_128x86.317a7699.svg
+DSM =>  ✔ Upload complete: static/media/HTI_128x86.509ed140.svg
+DSM =>  ✔ Upload complete: static/media/HUN_128x86.d081a80a.svg
+DSM =>  ✔ Upload complete: static/media/ideal.92f805f6.svg
+DSM =>  ✔ Upload complete: static/media/IDN_128x86.a066592a.svg
+DSM =>  ✔ Upload complete: static/media/imageContent.e5929fb9.jpg
+DSM =>  ✔ Upload complete: static/media/IND_128x86.37b94ee4.svg
+DSM =>  ✔ Upload complete: static/media/IRL_128x86.c5734715.svg
+DSM =>  ✔ Upload complete: static/media/ISL_128x86.009aba18.svg
+DSM =>  ✔ Upload complete: static/media/ITA_128x86.af5cac54.svg
+DSM =>  ✔ Upload complete: static/media/JAM_128x86.5d1cd105.svg
+DSM =>  ✔ Upload complete: static/media/JPN_128x86.c0f64f85.svg
+DSM =>  ✔ Upload complete: static/media/KAZ_128x86.9051fd1d.svg
+DSM =>  ✔ Upload complete: static/media/KEN_128x86.22999de0.svg
+DSM =>  ✔ Upload complete: static/media/KHM_128x86.453f4921.svg
+DSM =>  ✔ Upload complete: static/media/KOR_128x86.2e7550b1.svg
+DSM =>  ✔ Upload complete: static/media/LBR_128x86.628414fa.svg
+DSM =>  ✔ Upload complete: static/media/LKA_128x86.6d0b7bd1.svg
+DSM =>  ✔ Upload complete: static/media/LTU_128x86.40f782a0.svg
+DSM =>  ✔ Upload complete: static/media/LUX_128x86.002c83a9.svg
+DSM =>  ✔ Upload complete: static/media/LVA_128x86.a937d22d.svg
+DSM =>  ✔ Upload complete: static/media/mandate_form.69113abf.svg
+DSM =>  ✔ Upload complete: static/media/MAR_128x86.a7c489ad.svg
+DSM =>  ✔ Upload complete: static/media/mario.090877a5.png
+DSM =>  ✔ Upload complete: static/media/MDA_128x86.26c4e180.svg
+DSM =>  ✔ Upload complete: static/media/menu-badged.29e0ac68.svg
+DSM =>  ✔ Upload complete: static/media/menu.9135a969.svg
+DSM =>  ✔ Upload complete: static/media/MEX_128x86.1e4a2cc8.svg
+DSM =>  ✔ Upload complete: static/media/mfa-block-image.973bc7fe.svg
+DSM =>  ✔ Upload complete: static/media/mfa-code-image.dbdc2372.svg
+DSM =>  ✔ Upload complete: static/media/MLI_128x86.01802170.svg
+DSM =>  ✔ Upload complete: static/media/MLT_128x86.bcb9f983.svg
+DSM =>  ✔ Upload complete: static/media/MMR_128x86.f0f87317.svg
+DSM =>  ✔ Upload complete: static/media/mobile_money.052f40ae.svg
+DSM =>  ✔ Upload complete: static/media/moreInstructions.b9c63953.svg
+DSM =>  ✔ Upload complete: static/media/MWI_128x86.4b52b61d.svg
+DSM =>  ✔ Upload complete: static/media/MYS_128x86.4b6d9c50.svg
+DSM =>  ✔ Upload complete: static/media/NGA_128x86.e21342c4.svg
+DSM =>  ✔ Upload complete: static/media/NIC_128x86.b24280da.svg
+DSM =>  ✔ Upload complete: static/media/NLD_128x86.51eca6fa.svg
+DSM =>  ✔ Upload complete: static/media/non-photoid-with-status.66e038af.svg
+DSM =>  ✔ Upload complete: static/media/non-photoid.fdf3e8d0.svg
+DSM =>  ✔ Upload complete: static/media/NOR_128x86.b21cae42.svg
+DSM =>  ✔ Upload complete: static/media/noReminders.3d68567d.svg
+DSM =>  ✔ Upload complete: static/media/notAllowed.27a83a4a.png
+DSM =>  ✔ Upload complete: static/media/notFound.17ad4d20.png
+DSM =>  ✔ Upload complete: static/media/NPL_128x86.b080c721.svg
+DSM =>  ✔ Upload complete: static/media/NZL_128x86.61e179f4.svg
+DSM =>  ✔ Upload complete: static/media/openNetworks.4f6e813b.svg
+DSM =>  ✔ Upload complete: static/media/orca-icons.0e35e77f.eot
+DSM =>  ✔ Upload complete: static/media/orca-icons.c8b3934c.ttf
+DSM =>  ✔ Upload complete: static/media/orca-icons.f64a5fa8.woff
+DSM =>  ✔ Upload complete: static/media/orca-icons.fccecdd0.svg
+DSM =>  ✔ Upload complete: static/media/PAK_128x86.38967aff.svg
+DSM =>  ✔ Upload complete: static/media/PAN_128x86.c01919db.svg
+DSM =>  ✔ Upload complete: static/media/passport-with-status.a7858d06.svg
+DSM =>  ✔ Upload complete: static/media/passport.757f28da.svg
+DSM =>  ✔ Upload complete: static/media/PER_128x86.897aa231.svg
+DSM =>  ✔ Upload complete: static/media/PHL_128x86.5063e030.svg
+DSM =>  ✔ Upload complete: static/media/photoid-with-status.a08cd691.svg
+DSM =>  ✔ Upload complete: static/media/photoid.2501d7f7.svg
+DSM =>  ✔ Upload complete: static/media/plus.db803d4f.svg
+DSM =>  ✔ Upload complete: static/media/POL_128x86.0e040241.svg
+DSM =>  ✔ Upload complete: static/media/powered_by_google_on_white.f127e368.png
+DSM =>  ✔ Upload complete: static/media/PRT_128x86.6e9f698c.svg
+DSM =>  ✔ Upload complete: static/media/PRY_128x86.37c3fcd1.svg
+DSM =>  ✔ Upload complete: static/media/question-with-status.dafac9e7.svg
+DSM =>  ✔ Upload complete: static/media/question.24a95e99.svg
+DSM =>  ✔ Upload complete: static/media/reminderRestriction.ef4b6b84.svg
+DSM =>  ✔ Upload complete: static/media/reminderSet.518b14bc.svg
+DSM =>  ✔ Upload complete: static/media/reset-password-image.7a6edb16.svg
+DSM =>  ✔ Upload complete: static/media/ROU_128x86.39a350f5.svg
+DSM =>  ✔ Upload complete: static/media/RUS_128x86.f5454027.svg
+DSM =>  ✔ Upload complete: static/media/RWA_128x86.fad2c802.svg
+DSM =>  ✔ Upload complete: static/media/savings.9da61a66.svg
+DSM =>  ✔ Upload complete: static/media/SEN_128x86.fd2f5d4c.svg
+DSM =>  ✔ Upload complete: static/media/SGP_128x86.31c61f6d.svg
+DSM =>  ✔ Upload complete: static/media/shield.5f3874a3.svg
+DSM =>  ✔ Upload complete: static/media/show_icon.bade947c.svg
+DSM =>  ✔ Upload complete: static/media/SLV_128x86.8fdd8545.svg
+DSM =>  ✔ Upload complete: static/media/sofort.01f6ee1a.svg
+DSM =>  ✔ Upload complete: static/media/ssn-with-status.642a6c2b.svg
+DSM =>  ✔ Upload complete: static/media/ssn.8be5cf7b.svg
+DSM =>  ✔ Upload complete: static/media/state-complete.c564f959.svg
+DSM =>  ✔ Upload complete: static/media/state-failure.7613008e.svg
+DSM =>  ✔ Upload complete: static/media/state-pending.cc9b9b92.svg
+DSM =>  ✔ Upload complete: static/media/state-warning.bf6a3700.svg
+DSM =>  ✔ Upload complete: static/media/SVK_128x86.384797b0.svg
+DSM =>  ✔ Upload complete: static/media/SVN_128x86.e76c7faf.svg
+DSM =>  ✔ Upload complete: static/media/SWE_128x86.8c7f5d09.svg
+DSM =>  ✔ Upload complete: static/media/TGO_128x86.ac839d72.svg
+DSM =>  ✔ Upload complete: static/media/THA_128x86.b5e200c5.svg
+DSM =>  ✔ Upload complete: static/media/TJK_128x86.665975fa.svg
+DSM =>  ✔ Upload complete: static/media/TUN_128x86.3f17551c.svg
+DSM =>  ✔ Upload complete: static/media/TUR_128x86.bf2d37bb.svg
+DSM =>  ✔ Upload complete: static/media/TWN_128x86.f80bbfba.svg
+DSM =>  ✔ Upload complete: static/media/TZA_128x86.31a3fe73.svg
+DSM =>  ✔ Upload complete: static/media/UGA_128x86.f09e4322.svg
+DSM =>  ✔ Upload complete: static/media/UKR_128x86.143c641c.svg
+DSM =>  ✔ Upload complete: static/media/upload-no-preview.8609ea2a.svg
+DSM =>  ✔ Upload complete: static/media/uploadFile.e1c1390f.svg
+DSM =>  ✔ Upload complete: static/media/URY_128x86.b5d368b5.svg
+DSM =>  ✔ Upload complete: static/media/USA_128x86.12709625.svg
+DSM =>  ✔ Upload complete: static/media/VNM_128x86.51b8a454.svg
+DSM =>  ✔ Upload complete: static/media/ZAF_128x86.8d1be803.svg
+DSM =>  ✔ Upload complete: static/media/ZWE_128x86.d828a7a5.svg
+DSM =>  ✔ Upload complete: vendors~main.54f3cdb68091e08bab9c.bundle.js
+DSM =>  ✔ Upload complete: vendors~main.6f9b593ec5c6b3a9c066.bundle.js
+DSM =>  ✔ Asset upload complete.
+DSM =>  ✔ DSM update complete. buildId: 8eU_905we
+✨  Done in 151.71s.
