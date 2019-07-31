@@ -133,7 +133,7 @@ function script(){
                   }
                 }
               // this timeout on further redirects allows us to parse in the meantime
-            }, 30200)
+            }, 45200)
             }else{
               iterate(count, n)
             }
