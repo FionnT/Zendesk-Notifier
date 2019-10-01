@@ -27,13 +27,6 @@ Copyright 2019 until the Heat Death of the Universe
 11. Implement more default notification tones
 12. Implement new options page based on Laura's designs
 13. Bug Fixes
-## Redundant loops
-
-  We can't just deiterate the `queue_count` var when a queue is deleted (we would need to be able to resave all queue names to
-  reflect this), so instead when a queue filter is deleted, we set that queue's filter values to null.
-
-  Which means we need to loop through all stored queue_x keys, and make sure they're not empty before proceeding
-
 
 ## Object.Keys
 
