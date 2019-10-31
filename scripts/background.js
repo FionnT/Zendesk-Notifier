@@ -1,4 +1,4 @@
-chrome.runtime.onInstalled.addListener(function(details) {
+chrome.runtime.onInstalled.addListener(details => {
   if (details.reason == "install") {
     console.log("This is a first install!");
     chrome.storage.sync.set({ new: false });
@@ -10,7 +10,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
     chrome.tabs.create({ url: "../options.html" });
     chrome.storage.sync.set({ queue_count: 0 });
   } else if (details.reason == "update") {
-    var thisVersion = chrome.runtime.getManifest().version;
+    let thisVersion = chrome.runtime.getManifest().version;
     console.log(
       "Updated from " + details.previousVersion + " to " + thisVersion + "!"
     );
@@ -39,7 +39,7 @@ const run = () => {
           128: "icons/icon128.png"
         }
       });
-      var taburl = "https://invisionapp.zendesk.com/agent/filters/";
+      taburl = "https://invisionapp.zendesk.com/agent/filters/";
       chrome.tabs.create(
         {
           url: taburl,
@@ -70,7 +70,7 @@ const run = () => {
 ///////////  Power settings
 const powercheck = power => {
   if (power) {
-    chrome.storage.sync.get(["preventsleep"], function(result) {
+    chrome.storage.sync.get(["preventsleep"], result => {
       if (result.preventsleep) {
         chrome.power.requestKeepAwake("display");
       } else {
@@ -83,11 +83,11 @@ const powercheck = power => {
 };
 
 ///////////  Enabled by clicking the icon,
-chrome.browserAction.onClicked.addListener(function() {
-  chrome.storage.sync.get(["enable"], function(result) {
+chrome.browserAction.onClicked.addListener(() => {
+  chrome.storage.sync.get(["enable"], result => {
     if (!result.enable) {
-      var today = new Date();
-      var time =
+      let today = new Date();
+      let time =
         today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
       console.log("First run started at: " + time);
       powercheck(true);
@@ -110,8 +110,8 @@ chrome.tabs.onRemoved.addListener(tabid => {
           chrome.alarms.clearAll();
           chrome.storage.sync.set({ livetab: null });
           chrome.storage.sync.set({ enable: false });
-          var today = new Date();
-          var time =
+          let today = new Date();
+          let time =
             today.getHours() +
             ":" +
             today.getMinutes() +
@@ -168,10 +168,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     );
 
     ///////// Sound player
-    chrome.storage.sync.get(["sound"], function(result) {
-      var file = result.sound;
-      chrome.storage.sync.get(["volume"], function(vol) {
-        var audio = new Audio(chrome.runtime.getURL(file));
+    chrome.storage.sync.get(["sound"], result => {
+      let file = result.sound;
+      chrome.storage.sync.get(["volume"], vol => {
+        let audio = new Audio(chrome.runtime.getURL(file));
         audio.volume = vol.volume;
         audio.play();
       });
@@ -179,7 +179,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 });
 /////////// Notification click -> Open tab with the URL of the Queue that we just notified about
-chrome.notifications.onClicked.addListener(function() {
+chrome.notifications.onClicked.addListener(() => {
   if (taburl) {
     // open a new tab
     chrome.tabs.create({
@@ -195,10 +195,8 @@ chrome.notifications.onClicked.addListener(function() {
 
 /////////// Reset and reload every x minutes
 // chrome gradually lowers priority for tabs that aren't viewed
-chrome.alarms.onAlarm.addListener(function(alarm) {
-  chrome.storage.sync.get(["livetab"], function(result) {
-    if (result.livetab != null && result.livetab != undefined) {
-      chrome.tabs.remove(result.livetab);
-    }
+chrome.alarms.onAlarm.addListener(alarm => {
+  chrome.storage.sync.get(["livetab"], result => {
+    if (result.livetab) chrome.tabs.remove(result.livetab);
   });
 });
