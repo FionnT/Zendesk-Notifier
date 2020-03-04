@@ -1,6 +1,6 @@
 # Zendesk Notifier
 
-This code is trash, but it does work. 
+This code is spaghetti, but it does work. 
 
 I might rewrite it in future. 
 
